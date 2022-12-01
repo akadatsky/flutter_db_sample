@@ -11,6 +11,6 @@ const String createTableQuery = '''
 CREATE TABLE IF NOT EXISTS $tableName (
 $columnId integer PRIMARY KEY AUTOINCREMENT,
 $columnName text,
-$columnAge columnAge
+$columnAge integer
 );
 ''';
